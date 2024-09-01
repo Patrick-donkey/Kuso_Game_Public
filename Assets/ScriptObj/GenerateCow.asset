@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367a4b8a8b2f63e46930623530e7ab32, type: 3}
+  m_Name: GenerateCow
+  m_EditorClassIdentifier: 
+  MpCost: 10
+  CDset: 5
+  EnegryAdd: 15
+  tr: {fileID: 0}
+  generateObj: {fileID: 7312858763273846133, guid: d5418f8bcfa00f04b8667c63d0dbce07, type: 3}
+  ColliderTime: 1
+  Damage: 20
+  SpdX: 25
+  SpdY: 0
+  SpdZ: 720
+  LifeTime: 3
+  HitEnergy: 10
+  SpawnY: 1
+  AOE: 1

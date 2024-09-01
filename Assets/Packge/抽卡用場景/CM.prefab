@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2103931536352558351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8126758830186788989}
+  - component: {fileID: 108101080900177157}
+  m_Layer: 0
+  m_Name: CM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8126758830186788989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103931536352558351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.692882, y: -2.7896435, z: 0.11715698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &108101080900177157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103931536352558351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cce657b8bf433842bbbfd356ab7def6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardSprite: {fileID: 0}
+  Name: 
+  Type: Attack
+  ObjTag: Player
+  Rarity: Epic
+  RarityColor: {r: 0, g: 0, b: 0, a: 0}
+  cardeffect: {fileID: 0}
+  UseOneTime: 0
+  cards:
+  - Name: Cow
+    Type: Attack
+    ObjTag: Player
+    Rarity: Common
+    RarityColor: {r: 0.50980395, g: 0.87843144, b: 0.64705884, a: 255}
+    Image: {fileID: 1634965901, guid: 569e688eb392c984d80c005624f4d2e8, type: 3}
+    Effect: {fileID: 11400000, guid: f699db9eb8149b840a6472620064af21, type: 2}
+    UseOneTime: 0
+  - Name: Chinken
+    Type: Attack
+    ObjTag: Player
+    Rarity: Rare
+    RarityColor: {r: 0.5254902, g: 1, b: 0.93725497, a: 255}
+    Image: {fileID: 246372914, guid: 36ca7426fcd00f040a449a17459feb3d, type: 3}
+    Effect: {fileID: 11400000, guid: 8fb3b7c36ecb1c64485af6191deab290, type: 2}
+    UseOneTime: 1
+  - Name: Axe
+    Type: Attack
+    ObjTag: Player
+    Rarity: Common
+    RarityColor: {r: 0.50980395, g: 0.87843144, b: 0.64705884, a: 255}
+    Image: {fileID: -1720234067, guid: bf7455db6eb604f42945de30a9bbe637, type: 3}
+    Effect: {fileID: 11400000, guid: f936244d77291dc41afa7cd5241ed461, type: 2}
+    UseOneTime: 0
+  - Name: Wood
+    Type: Attack
+    ObjTag: Player
+    Rarity: Epic
+    RarityColor: {r: 0.75294125, g: 0.27058825, b: 0.9058824, a: 255}
+    Image: {fileID: -1467691826, guid: bf7455db6eb604f42945de30a9bbe637, type: 3}
+    Effect: {fileID: 11400000, guid: bc36d6ea557e8284cab08e9384342e21, type: 2}
+    UseOneTime: 1

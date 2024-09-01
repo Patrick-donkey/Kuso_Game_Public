@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Wall
+  - Enemy
+  - SpellArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Sprite
+  - Wall
+  - Enemy
+  - Spell
+  - SpellArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 4106678619
+    locked: 0
+  - name: FG
+    uniqueID: 959160319
+    locked: 0
+  - name: Ground
+    uniqueID: 1451818929
+    locked: 0
+  - name: Gobj
+    uniqueID: 2904356907
+    locked: 0
+  - name: Enemy
+    uniqueID: 2156908725
+    locked: 0
+  - name: Sprite
+    uniqueID: 3008732457
+    locked: 0
+  - name: Attack
+    uniqueID: 3017909711
+    locked: 0
+  - name: UI
+    uniqueID: 3455816993
+    locked: 0

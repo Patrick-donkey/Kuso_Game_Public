@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367a4b8a8b2f63e46930623530e7ab32, type: 3}
+  m_Name: GenerateChinken
+  m_EditorClassIdentifier: 
+  MpCost: 5
+  CDset: 2
+  EnegryAdd: 10
+  tr: {fileID: 0}
+  generateObj: {fileID: 7312858763273846133, guid: 629b824f0de4fd1488d92ca9dd9fb035, type: 3}
+  ColliderTime: 3
+  Damage: 5
+  SpdX: 10
+  SpdY: 20
+  SpdZ: 720
+  LifeTime: 5
+  HitEnergy: 15
+  SpawnY: 1
+  AOE: 1
